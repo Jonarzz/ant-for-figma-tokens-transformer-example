@@ -102,3 +102,10 @@ dist
 
 # TernJS port file
 .tern-port
+
+.idea/
+build/
+
+dark.less
+default.less
+tokens-transformer.secret.json

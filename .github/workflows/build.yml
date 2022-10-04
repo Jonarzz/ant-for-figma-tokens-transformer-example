@@ -1,0 +1,24 @@
+name: Build and deploy
+
+on:
+  push:
+    branches: [ "gh-actions" ]
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+      - name: Setup Node 16
+        uses: actions/setup-node@v3
+        with:
+          node-version: '16.x'
+      - run: npm ci
+      - run: npx figma-tokens-transformer transform
+      - run: PUBLIC_URL=/ant-for-figma-tokens-transformer-example npm run build
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v3.7.3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./build
