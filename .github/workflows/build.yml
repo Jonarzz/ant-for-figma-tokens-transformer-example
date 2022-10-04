@@ -15,7 +15,7 @@ jobs:
         with:
           node-version: '16.x'
       - run: npm ci
-      - run: npx figma-tokens-transformer transform
+      - run: LICENSE_KEY=${{ secrets.LICENSE_KEY }} LICENSE_EMAIL=${{ secrets.LICENSE_EMAIL }} npx figma-tokens-transformer transform
       - run: PUBLIC_URL=/ant-for-figma-tokens-transformer-example npm run build
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3.7.3
