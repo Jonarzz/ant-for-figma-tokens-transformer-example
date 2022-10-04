@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/ant-for-figma-tokens-transformer-example/static/css/main.f50e3b0f.chunk.css",
+    "main.css": "/ant-for-figma-tokens-transformer-example/static/css/main.1a7a8336.chunk.css",
     "main.js": "/ant-for-figma-tokens-transformer-example/static/js/main.1a1398ba.chunk.js",
     "main.js.map": "/ant-for-figma-tokens-transformer-example/static/js/main.1a1398ba.chunk.js.map",
     "runtime-main.js": "/ant-for-figma-tokens-transformer-example/static/js/runtime-main.b455de87.js",
@@ -8,13 +8,13 @@
     "static/js/2.cfb90ede.chunk.js": "/ant-for-figma-tokens-transformer-example/static/js/2.cfb90ede.chunk.js",
     "static/js/2.cfb90ede.chunk.js.map": "/ant-for-figma-tokens-transformer-example/static/js/2.cfb90ede.chunk.js.map",
     "index.html": "/ant-for-figma-tokens-transformer-example/index.html",
-    "static/css/main.f50e3b0f.chunk.css.map": "/ant-for-figma-tokens-transformer-example/static/css/main.f50e3b0f.chunk.css.map",
+    "static/css/main.1a7a8336.chunk.css.map": "/ant-for-figma-tokens-transformer-example/static/css/main.1a7a8336.chunk.css.map",
     "static/js/2.cfb90ede.chunk.js.LICENSE.txt": "/ant-for-figma-tokens-transformer-example/static/js/2.cfb90ede.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.b455de87.js",
     "static/js/2.cfb90ede.chunk.js",
-    "static/css/main.f50e3b0f.chunk.css",
+    "static/css/main.1a7a8336.chunk.css",
     "static/js/main.1a1398ba.chunk.js"
   ]
 }
