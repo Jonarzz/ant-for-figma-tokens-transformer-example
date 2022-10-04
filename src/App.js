@@ -24,7 +24,7 @@ const items2 = [UserOutlined, LaptopOutlined, NotificationOutlined].map((icon, i
   };
 });
 
-const { Title, Paragraph, Text, Link } = Typography;
+const { Title, Paragraph, Text} = Typography;
 const { Panel } = Collapse;
 const text = `
   A dog is a type of domesticated animal.
